@@ -10,10 +10,10 @@ Under active development
 
 This tool generates ShareGPT-format training data with embedded thematic role annotations, informed by Levin & Rappaport Hovav (2005) and Dowty (1991).
 
-## Features (planned)
-
+## Features
 - Source-side thematic role annotation (Agent, Patient, Goal, etc.)
 - ShareGPT-format JSONL output
+- Save and load current progress (planned)
 
 ## Related Work
 
