@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1183896216.svg)](https://doi.org/10.5281/zenodo.19059433)
+
 # Chinese-HKSL Semantic Role Annotator
 
 A Python CLI tool for generating semantically annotated training data for zh-Hant to Hong Kong Sign Language Gloss (HKSL) gloss machine translation.
@@ -27,4 +29,4 @@ TBD
 
 ## Citation
 
-Hu, P.-S. B. (2026). *Chinese-HKSL Semantic Role Annotator* [Computer software]. GitHub. https://github.com/hpsns414/zhhk-hksl-annotator
+Hu, P.-S. B. (2026). *Chinese-HKSL Semantic Role Annotator* [Computer software]. GitHub. https://doi.org/10.5281/zenodo.19059434
