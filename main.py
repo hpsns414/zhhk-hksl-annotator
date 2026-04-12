@@ -1,4 +1,5 @@
 import json
+import os
 
 NULL_TOKEN = "Ø"
 TRAININGFILE_DIR = "demo_corpus.jsonl"
@@ -72,14 +73,24 @@ def main():
 
 
   def sharegpt_export():
-    
-    with open(TRAININGFILE_DIR, "r", encoding="utf-8") as f:
-      
-      for x in f:
-        y = json.loads(x)
-        print(y)
 
-        while True:
+    annotated_line_count = -1
+    if os.path.exists(ANNOTATED_DIR): 
+      print("exist")
+
+      with open(ANNOTATED_DIR, "r", encoding="utf-8") as g:
+        for annotated_line_count, element in enumerate(g):
+          pass
+        print(annotated_line_count)
+
+    with open(TRAININGFILE_DIR, "r", encoding="utf-8") as f:
+        for training_line_count, element in enumerate(f):
+          if  training_line_count <= annotated_line_count:
+            continue
+          y = json.loads(element)
+          print(y)
+
+          while True:
             annotation_ctrl = input("DO you want to annotate? (y/n/q)")
 
             if annotation_ctrl.strip() == "y" or annotation_ctrl.strip() == "Y":
