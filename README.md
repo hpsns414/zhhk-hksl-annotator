@@ -10,13 +10,13 @@ Under active development
 
 ## Description
 
-This tool generates ShareGPT-format training data with embedded thematic role annotations, informed by Levin & Rappaport Hovav (2005) and Dowty (1991).
+This tool generates ShareGPT-format training data with embedded thematic role annotations, informed by Levin & Rappaport Hovav (2005).
 
 ## Features
 
 - Source-side thematic role annotation (Agent, Patient, Goal, etc.)
 - ShareGPT-format JSONL output
-- Save and load current progress (planned)
+- Save and load current progress
 
 ## Related Work
 
@@ -26,7 +26,3 @@ This tool generates ShareGPT-format training data with embedded thematic role an
 ## License
 
 TBD
-
-## Citation
-
-Hu, P.-S. B. (2026). *Chinese-HKSL Semantic Role Annotator* [Computer software]. GitHub. https://doi.org/10.5281/zenodo.19059434
