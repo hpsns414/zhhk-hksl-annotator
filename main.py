@@ -93,7 +93,7 @@ def main():
           while True:
             annotation_ctrl = input("DO you want to annotate? (y/n/q)")
 
-            if annotation_ctrl.strip() == "y" or annotation_ctrl.strip() == "Y":
+            if annotation_ctrl.lower().strip() == "y":
                 
                 with open(ANNOTATED_DIR, "a", encoding="utf-8") as g:
                 
@@ -108,13 +108,13 @@ def main():
                         break
                 
 
-            elif annotation_ctrl.strip() == "n" or annotation_ctrl.strip() == "N":
+            elif annotation_ctrl.lower().strip() == "n":
                 with open(ANNOTATED_DIR, "a", encoding="utf-8") as g:
                     z = json.dumps(y, ensure_ascii=False)
                     g.write(z + "\n")
                     break
             
-            elif annotation_ctrl.strip() == "q" or annotation_ctrl.strip() == "Q":
+            elif annotation_ctrl.lower().strip() == "q":
               print("Session terminated")
               return 
 
