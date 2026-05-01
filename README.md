@@ -19,7 +19,7 @@ This tool generates ShareGPT-format training data with embedded thematic role an
 ## Related Work
 
 - Hu, P.-S. B., & Yim, C. H. (2026). Feasibility of Machine Translation System for Low-Resource Sinitic Varieties: A Case Study of Hong Kong Hakka [Forthcoming]. TCSL11, EdUHK.
-- Sterk, D. C., Hu, P.-S. B., & Li, H. L. (2025). Minority Language MT and Language Learning in the Age of AI. CUHK DH2025.
+- Sterk, D. C., Hu, P.-S. B., & Li, H. L. (2025). Minority Language MT and Language Learning in the Age of AI. DH2025, CUHK.
 
 ## License
 
