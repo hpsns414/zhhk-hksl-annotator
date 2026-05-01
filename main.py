@@ -76,7 +76,7 @@ def main():
 
     annotated_line_count = -1
     if os.path.exists(ANNOTATED_DIR): 
-      print("exist")
+      #print("exist")
 
       with open(ANNOTATED_DIR, "r", encoding="utf-8") as g:
         for annotated_line_count, element in enumerate(g):
